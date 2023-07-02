@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconProp, library } from '@fortawesome/fontawesome-svg-core';
 
-import { faSearch } from '@fortawesome/free-solid-svg-icons/faSearch';
+import { faSearch, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faTelegram } from '@fortawesome/free-brands-svg-icons';
 
-library.add(faSearch, faBell);
+library.add(faSearch, faBell, faTelegram, faPhone, faEnvelope);
 
 interface IconProps {
   icon: IconProp;
