@@ -3,6 +3,7 @@ import Logo from '@/components/Logo.tsx';
 import Link from 'next/link';
 import Icon from '@/components/Icon.tsx';
 import MyCarousel from '@/components/MyCarousel.tsx';
+import Marquee from '@/components/MarqueeBrands.tsx';
 
 export default function Home() {
   return (
@@ -45,6 +46,9 @@ export default function Home() {
       </section>
       <section>
         <MyCarousel />
+      </section>
+      <section>
+        <Marquee />
       </section>
     </>
   );

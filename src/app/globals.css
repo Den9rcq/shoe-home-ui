@@ -5,3 +5,8 @@
 body {
   @apply bg-gray-200
 }
+
+/* react-fast-marquee */
+.initial-child-container {
+  align-items: center;
+}
