@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function DashboardLayout({
   children,
 }: {
@@ -6,11 +8,11 @@ export default function DashboardLayout({
   return (
     <section>
       <nav>
-        <button>Вход</button>
-        <button>Регистрация</button>
+        <button type="button">Вход</button>
+        <button type="button">Регистрация</button>
       </nav>
 
       {children}
     </section>
-  )
+  );
 }
