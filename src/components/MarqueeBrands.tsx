@@ -26,7 +26,7 @@ function MarqueeBrands() {
       pauseOnHover
       speed={100}
       gradient
-      gradientColor={[229, 231, 235]}
+      gradientColor={[243, 244, 246]}
     >
       {brands.map((brand, i) => (
         <Image

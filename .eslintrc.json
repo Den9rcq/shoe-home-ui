@@ -14,5 +14,13 @@
     "react/require-default-props": "off",
     "react/prop-types": "off",
     "react/jsx-props-no-spreading": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.tsx"], // Применить настройки для всех файлов с расширением .tsx
+      "rules": {
+        "import/extensions": "off" // Отключение правила здесь
+      }
+    }
+  ]
 }

@@ -1,9 +1,10 @@
 import React from 'react';
-import Logo from '@/components/Logo.tsx';
+import Logo from '@/components/Logo';
 import Link from 'next/link';
-import Icon from '@/components/Icon.tsx';
-import MyCarousel from '@/components/MyCarousel.tsx';
-import Marquee from '@/components/MarqueeBrands.tsx';
+import Icon from '@/components/Icon';
+import MyCarousel from '@/components/MyCarousel';
+import Marquee from '@/components/MarqueeBrands';
+import Products from '@/components/Products';
 
 export default function Home() {
   return (
@@ -49,6 +50,9 @@ export default function Home() {
       </section>
       <section>
         <Marquee />
+      </section>
+      <section>
+        <Products />
       </section>
     </>
   );
