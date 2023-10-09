@@ -13,7 +13,6 @@ interface IconProps {
   size?: SizeProp
   className?: string
 }
-
 function Icon({ icon, theme = 'regular', ...props }: IconProps) {
   const themeClassName = theme ? `fa${theme[0]}` : '';
   const iconInfo = typeof icon === 'string' ? [themeClassName, icon] : icon;
