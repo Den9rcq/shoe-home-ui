@@ -6,8 +6,6 @@ import MyCarousel from '@/components/MyCarousel';
 import Marquee from '@/components/MarqueeBrands';
 import Products from '@/components/Products';
 
-// TODO: test
-
 export default function Home() {
   return (
     <>
